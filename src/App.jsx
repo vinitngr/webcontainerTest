@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,7 +16,8 @@ function App() {
   </a>
 </div>
 
-<h1>vinit</h1>
+<h1>{import.meta.env.VITE_HI}</h1>
+<h1>vinit nagar</h1>
 
 <img src="test.png" style={{ height: '100px' }} alt="Test image" />
 
