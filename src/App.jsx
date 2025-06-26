@@ -19,17 +19,17 @@ function App() {
 <h1>{import.meta.env.VITE_HI}</h1>
 <h1>vinit nagar</h1>
 
-<img src="test.png" style={{ height: '100px' }} alt="Test image" />
+<img src="/test.png" style={{ height: '100px' }} alt="Test image" />
 
-<video src="test.mp4" controls style={{ width: '200px', marginTop: '10px' }} />
+<video src="/test.mp4" controls style={{ width: '200px', marginTop: '10px' }} />
 
-<audio src="test.mp3" controls style={{ marginTop: '10px' }} />
+<audio src="/test.mp3" controls style={{ marginTop: '10px' }} />
 
-<object data="test.pdf" type="application/pdf" width="200" height="150">
+<object data="/test.pdf" type="application/pdf" width="200" height="150">
   <p>PDF preview not supported</p>
 </object>
 
-<img src="test.svg" alt="Test SVG" style={{ height: '50px', marginTop: '10px' }} />
+<img src="/test.svg" alt="Test SVG" style={{ height: '50px', marginTop: '10px' }} />
 
 <div className="card">
   <button onClick={() => setCount((count) => count + 1)}>
