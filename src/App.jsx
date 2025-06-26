@@ -17,7 +17,7 @@ function App() {
 </div>
 
 <h1>{import.meta.env.VITE_HI}</h1>
-<h1>vinit nagar</h1>
+<h1>vinit nagar master branch</h1>
 
 <img src="test.png" style={{ height: '100px' }} alt="Test image" />
 
