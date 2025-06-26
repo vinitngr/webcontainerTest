@@ -10,7 +10,13 @@ export default function ImageGallery() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <h1 className="text-3xl font-bold mb-8 text-gray-800">Image Gallery</h1>
+        <img 
+          src="https://www.shutterstock.com/shutterstock/photos/2286554497/display_1500/stock-photo-random-pictures-cute-and-funny-2286554497.jpg" 
+          alt="Random cute and funny pictures" 
+        />
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-6xl">
+      
         {images.map((src, i) => (
           <div
             key={i}
